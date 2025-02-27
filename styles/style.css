@@ -110,7 +110,7 @@ article:nth-child(2) .image {
 }
 
 article:nth-child(3) .image {
-  filter: brightness(0.3);
+  filter: sepia(20%);
 }
 
 article:nth-child(4) .image {
@@ -118,7 +118,7 @@ article:nth-child(4) .image {
 }
 
 article:nth-child(5) .image {
-  filter: saturate(50%);
+  filter: hue-rotate(-0.25turn);
 }
 
 article:nth-child(6) .image {
