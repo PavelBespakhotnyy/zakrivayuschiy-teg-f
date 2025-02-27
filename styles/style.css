@@ -176,6 +176,10 @@
   padding: 0;
 }
 
+.like-button {
+  width: 130px;
+}
+
 .card__icon-button:focus {
   outline: none;
 }
@@ -206,7 +210,6 @@
   line-height: 12.6px;
   color: var(--button-text-color);
   mix-blend-mode: difference;
-  padding: 12.5px 37px;
 }
 
 .button::before {
@@ -246,10 +249,6 @@
   padding: 15px 0;
   gap: 8px;
   height: auto;
-}
-
-.button-footer .button__text {
-  padding: 0;
 }
 
 /* dialog window */
