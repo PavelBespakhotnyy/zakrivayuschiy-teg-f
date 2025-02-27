@@ -129,10 +129,6 @@
   filter: drop-shadow(0 0 0.75rem crimson), brightness(0.3), opacity(0.2);
 }
 
-.filter-opacity {
-  filter: opacity(0.8);
-}
-
 .watermark {
   position: absolute;
   z-index: 100;
