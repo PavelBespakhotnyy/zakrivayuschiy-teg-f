@@ -101,35 +101,35 @@
   aspect-ratio: 1 / 1;
 }
 
-article:nth-child(1) .image {
+.filter-grayscale {
   filter: grayscale(80%);
 }
 
-article:nth-child(2) .image {
+.filter-saturate {
   filter: saturate(50%);
 }
 
-article:nth-child(3) .image {
+.filter-sepia {
   filter: sepia(20%);
 }
 
-article:nth-child(4) .image {
+.filter-contrast {
   filter: contrast(60%);
 }
 
-article:nth-child(5) .image {
+.filter-hue-rotate {
   filter: hue-rotate(-0.25turn);
 }
 
-article:nth-child(6) .image {
+.filter-invert {
   filter: invert(100%);
 }
 
-article:nth-child(7) .image {
+.filter-multi {
   filter: drop-shadow(0 0 0.75rem crimson), brightness(0.3) ;
 }
 
-article:nth-child(8) .image {
+.filter-opacity {
   filter: opacity(0.8);
 }
 
