@@ -118,7 +118,7 @@ article:nth-child(4) .image {
 }
 
 article:nth-child(5) .image {
-  filter: hue-rotate(90deg);
+  filter: saturate(50%);
 }
 
 article:nth-child(6) .image {
@@ -127,6 +127,10 @@ article:nth-child(6) .image {
 
 article:nth-child(7) .image {
   filter: brightness(1.5) contrast(50%);
+}
+
+article:nth-child(8) .image {
+  filter: opacity(0.8);
 }
 
 .watermark {
