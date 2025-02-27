@@ -46,11 +46,6 @@
 	transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon:active .contour {
-	fill: var(--heart-accent);
-	transition: fill 0.3s linear 0.06s;
-}
-
 /* is-liked property */
 .like-icon.is-liked .core {
 	fill: var(--heart-accent);
@@ -64,11 +59,11 @@
 
 .like-icon.is-liked .contour {
 	fill: var(--heart-accent);
-	transition: fill 0.3s linear 0.05s;
+	transition: fill 0.3s linear 0.06s;
 }
 
 /* animation scale */
-@keyframes scale {
+@keyframes HeartScale {
   0% {
     transform: scale(1);
   }
@@ -85,11 +80,11 @@
 /* turning animation scale on */
 .like-icon.is-liked .heart {
   transform-origin: center;
-  animation: scale 0.3s ease-in 0.1s;
+  animation: HeartScale 0.3s ease-in 0.1s;
 }
 
 /* animation sparks */
-@keyframes sparks {
+@keyframes AppearSparks {
   0% {
     fill: transparent;
   }
@@ -101,5 +96,5 @@
 
 /* turning on animatin sparks */
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s ease-in 0.3s;
+  animation: AppearSparks 0.3s ease-in 0.3s;
 }
