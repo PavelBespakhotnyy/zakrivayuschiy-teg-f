@@ -234,14 +234,14 @@
   box-shadow: 2px 2px 0 0 black;
 }
 
-/* Footer */
-.footer {
+/* floppy-section */
+.floppy-section {
   display: flex;
   justify-content: center;
   margin: 50px auto 103px auto;
 }
 
-.button-footer {
+.button-floppy-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -303,12 +303,12 @@
     height: 29px;
   }
 
-  .dialog-window[open] .disketa {
+  .dialog-window .disketa {
     width: 39px;
     height: 39px;
   }
 
-  .button-footer {
+  .button-floppy-section {
     flex-direction: column;
   }
 
