@@ -17,7 +17,7 @@
 
       --heart-outline: black;
       
-      --heart-dark: black;
+      --heart-dark: rgb(0,0,0);
       --heart-accent: red;
       --heart-light: white;
 }
