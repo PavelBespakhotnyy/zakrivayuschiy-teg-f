@@ -6,7 +6,7 @@
     --font-weight-text: 400; /* Основной вес текста */
     --font-weight-title: 700; /* Вес заголовков */
 
-		--backgorund:
+		--background:
 			repeating-linear-gradient(90deg, #d3d3d3 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
 			repeating-linear-gradient(180deg, #d3d3d3 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
 			linear-gradient(180deg, #E7E7E7 0.01%, #1A1A1A 100%);

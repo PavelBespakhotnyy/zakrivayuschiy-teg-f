@@ -41,12 +41,12 @@
 	transition: fill 0.3s linear;
 }
 
-.like-icon:active .main-body{
+.like-icon:active .main-body {
 	fill: var(--heart-accent);
 	transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon:active .contour{
+.like-icon:active .contour {
 	fill: var(--heart-accent);
 	transition: fill 0.3s linear 0.06s;
 }

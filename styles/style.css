@@ -13,7 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  background: var(--backgorund);
+  background: var(--background);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
