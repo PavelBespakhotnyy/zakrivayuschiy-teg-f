@@ -263,6 +263,10 @@
   mix-blend-mode: difference;
 }
 
+.disketa-window use {
+  object-fit: cover;
+}
+
 .dialog-window[open] .disketa {
   mix-blend-mode: normal;
 }

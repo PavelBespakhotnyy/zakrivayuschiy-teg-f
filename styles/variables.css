@@ -3,8 +3,8 @@
     --font-main: 'Inter', sans-serif;
     --font-accent: 'PressStart2P', cursive;
     
-    --font-weight-text: 400; /* Основной вес текста */
-    --font-weight-title: 700; /* Вес заголовков */
+    --font-weight-text: 400;
+    --font-weight-title: 700;
 
 		--background:
 			repeating-linear-gradient(90deg, #d3d3d3 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
